@@ -9,7 +9,6 @@ Document.addEventlistener("DOMContentLoaded", function runGame() {
                 let gametype= this.getAttribute("data-type");
                 alert('You clicked ${gameType}');
             }
-}
 
 function checkAnswer() {
 
